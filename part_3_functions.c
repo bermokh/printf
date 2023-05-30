@@ -90,7 +90,7 @@ return (write(1, buffer, i + offset));
 *@size: size of specifer
 *Return: number of chars
 */
-int print_revers(va_list types, char buffer[],
+int print_reverse(va_list types, char buffer[],
 int flags, int width, int precision, int size)
 {
 char *str;
